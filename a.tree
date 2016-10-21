@@ -1,0 +1,211 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for groupId:RAP:war:0.14.4-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for nl.flotsam:xeger:jar should not point at files within the project directory, ${basedir}/src/main/webapp/WEB-INF/lib/xeger-1.0-SNAPSHOT.jar will be unresolvable by dependent projects @ line 157, column 25
+[WARNING] 'dependencies.dependency.systemPath' for com.alibaba:buc.sso.common:jar should not point at files within the project directory, ${basedir}/src/main/webapp/WEB-INF/lib/buc.sso.common-0.3.9.jar will be unresolvable by dependent projects @ line 164, column 25
+[WARNING] 'dependencies.dependency.systemPath' for com.alibaba:buc.sso.client:jar should not point at files within the project directory, ${basedir}/src/main/webapp/WEB-INF/lib/buc.sso.client-0.3.9.jar will be unresolvable by dependent projects @ line 171, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RAP 0.14.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ RAP ---
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom
+831 B   2 KB           Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom (2 KB at 2.6 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+749 B   2 KB    3 KB   5 KB   9 KB   9 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom (9 KB at 144.3 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-parent/6/maven-parent-6.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-parent/6/maven-parent-6.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+791 B   3 KB    5 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (5 KB at 217.1 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+790 B   3 KB    3 KB   6 KB   6 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (6 KB at 301.4 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom
+758 B   3 KB    3 KB   7 KB   9 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom (9 KB at 387.9 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/commons-io/commons-io/1.4/commons-io-1.4.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/commons-io/commons-io/1.4/commons-io-1.4.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/commons/commons-parent/7/commons-parent-7.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/commons/commons-parent/7/commons-parent-7.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.pom
+2 KB   4 KB   5 KB   6 KB   9 KB   9 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.pom (9 KB at 341.2 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom
+2 KB   4 KB   4 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom (4 KB at 173.2 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom
+795 B   3 KB    4 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom (4 KB at 87.7 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+775 B   3 KB    4 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (4 KB at 130.7 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-parent/7/maven-parent-7.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-parent/7/maven-parent-7.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+790 B   3 KB    5 KB   6 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (6 KB at 143.8 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+2 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom (2 KB at 105.8 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+950 B   3 KB    6 KB   6 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom (6 KB at 327.7 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+2 KB   2 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (2 KB at 86.1 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+2 KB   3 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (3 KB at 126.6 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom
+2 KB   2 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom (2 KB at 95.1 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+2 KB   2 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (2 KB at 111.9 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom
+2 KB   2 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom (2 KB at 76.4 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+727/727 B               Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom (727 B at 41.8 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+813 B       3 KB           Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom (3 KB at 35.5 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+801 B   3 KB    4 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom (4 KB at 158.2 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+829 B   2 KB           Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (2 KB at 70.2 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven/2.0.8/maven-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven/2.0.8/maven-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+       Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom (0 B at 0.0 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom
+771 B   3 KB    3 KB   5 KB   5 KB          Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom (5 KB at 247.8 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/commons-io/commons-io/1.4/commons-io-1.4.jar
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+3/41 KB   4/41 KB   8/41 KB   12/41 KB   14/41 KB   17/41 KB   21/41 KB   25/41 KB   29/41 KB   33/41 KB   34/41 KB   36/41 KB   37/41 KB   39/41 KB   40/41 KB   41/41 KB   3/183 KB   41/41 KB   6/183 KB   41/41 KB   10/183 KB   41/41 KB   14/183 KB   41/41 KB   14/183 KB   41/41 KB   16/183 KB   41/41 KB   17/183 KB   41/41 KB   19/183 KB   41/41 KB   22/183 KB   41/41 KB   26/183 KB   41/41 KB   30/183 KB   41/41 KB   34/183 KB   41/41 KB   38/183 KB   41/41 KB   40/183 KB   41/41 KB   44/183 KB   41/41 KB   48/183 KB   41/41 KB   52/183 KB   41/41 KB   54/183 KB   41/41 KB   57/183 KB   41/41 KB   61/183 KB   41/41 KB   65/183 KB   41/41 KB   69/183 KB   41/41 KB   73/183 KB   41/41 KB   74/183 KB   41/41 KB   76/183 KB   41/41 KB   79/183 KB   41/41 KB   81/183 KB   41/41 KB   85/183 KB   41/41 KB   89/183 KB   41/41 KB   93/183 KB   41/41 KB   97/183 KB   41/41 KB   101/183 KB   41/41 KB   4/21 KB   101/183 KB   41/41 KB   4/21 KB   105/183 KB   41/41 KB   8/21 KB   105/183 KB   41/41 KB   8/21 KB   109/183 KB   41/41 KB   12/21 KB   109/183 KB   41/41 KB   12/21 KB   113/183 KB   41/41 KB   14/21 KB   113/183 KB   41/41 KB   4/89 KB   14/21 KB   113/183 KB   41/41 KB                                                4/89 KB   14/21 KB   117/183 KB   41/41 KB   6/89 KB   14/21 KB   117/183 KB   41/41 KB   6/89 KB   14/21 KB   121/183 KB   41/41 KB   10/89 KB   14/21 KB   121/183 KB   41/41 KB   10/89 KB   14/21 KB   125/183 KB   41/41 KB   14/89 KB   14/21 KB   126/183 KB   41/41 KB   Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/commons-io/commons-io/1.4/commons-io-1.4.jar (0 B at 0.0 KB/sec)
+                                              Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar
+14/89 KB   14/21 KB   126/183 KB              Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (41 KB at 607.9 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+14/89 KB   14/21 KB   126/183 KB   41/41 KB   14/89 KB   14/21 KB   128/183 KB   14/89 KB   14/21 KB   132/183 KB   14/89 KB   14/21 KB   136/183 KB   14/89 KB   14/21 KB   138/183 KB   14/89 KB   14/21 KB   142/183 KB   18/89 KB   14/21 KB   142/183 KB   18/89 KB   14/21 KB   146/183 KB   18/89 KB   18/21 KB   146/183 KB   22/89 KB   18/21 KB   146/183 KB   22/89 KB   21/21 KB   150/183 KB   22/89 KB   21/21 KB   150/183 KB   26/89 KB   21/21 KB   150/183 KB   26/89 KB   21/21 KB   154/183 KB   30/89 KB   21/21 KB   154/183 KB   30/89 KB   21/21 KB   158/183 KB   34/89 KB   21/21 KB   158/183 KB   34/89 KB   21/21 KB   162/183 KB   34/89 KB   21/21 KB   166/183 KB   34/89 KB   21/21 KB   170/183 KB   34/89 KB   21/21 KB   174/183 KB   37/89 KB   21/21 KB   174/183 KB   37/89 KB   21/21 KB   178/183 KB   37/89 KB   21/21 KB   182/183 KB   37/89 KB   21/21 KB   183/183 KB   41/89 KB   21/21 KB   183/183 KB   45/89 KB   21/21 KB   183/183 KB   49/89 KB   21/21 KB   183/183 KB   53/89 KB   21/21 KB   183/183 KB   57/89 KB   21/21 KB   183/183 KB   57/89 KB   21/21 KB   3/227 KB   183/183 KB   57/89 KB   21/21 KB   6/227 KB   183/183 KB   57/89 KB   21/21 KB   10/227 KB   183/183 KB   57/89 KB   21/21 KB   14/227 KB   183/183 KB   4/37 KB   57/89 KB   21/21 KB   14/227 KB   183/183 KB   4/37 KB   57/89 KB   21/21 KB   18/227 KB   183/183 KB   8/37 KB   57/89 KB   21/21 KB   18/227 KB   183/183 KB   9/37 KB   57/89 KB   21/21 KB   18/227 KB   183/183 KB   9/37 KB   57/89 KB   21/21 KB   22/227 KB   183/183 KB   9/37 KB   57/89 KB   21/21 KB   24/227 KB   183/183 KB   13/37 KB   57/89 KB   21/21 KB   24/227 KB   183/183 KB   14/37 KB   57/89 KB   21/21 KB   24/227 KB   183/183 KB   14/37 KB   60/89 KB   21/21 KB   24/227 KB   183/183 KB   14/37 KB   64/89 KB   21/21 KB   24/227 KB   183/183 KB                                                             14/37 KB   68/89 KB   24/227 KB   183/183 KB              Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (21 KB at 199.3 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+14/37 KB   72/89 KB   24/227 KB   183/183 KB   14/37 KB   76/89 KB   24/227 KB   183/183 KB   14/37 KB   77/89 KB   24/227 KB   183/183 KB   14/37 KB   80/89 KB   24/227 KB   183/183 KB   18/37 KB   80/89 KB   24/227 KB   183/183 KB   18/37 KB   80/89 KB   28/227 KB   183/183 KB   18/37 KB   84/89 KB   28/227 KB   183/183 KB   22/37 KB   84/89 KB   28/227 KB   183/183 KB   22/37 KB   84/89 KB   32/227 KB   183/183 KB   22/37 KB   88/89 KB   32/227 KB   183/183 KB   22/37 KB   89/89 KB   32/227 KB   183/183 KB   22/37 KB   89/89 KB   36/227 KB   183/183 KB   26/37 KB   89/89 KB   36/227 KB   183/183 KB   26/37 KB   89/89 KB   40/227 KB   183/183 KB   30/37 KB   89/89 KB   40/227 KB   183/183 KB   32/37 KB   89/89 KB   44/227 KB   183/183 KB   32/37 KB   89/89 KB   44/227 KB   183/183 KB   32/37 KB   89/89 KB   48/227 KB   183/183 KB                                                  32/37 KB   89/89 KB   52/227 KB                Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (183 KB at 1625.9 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+32/37 KB   89/89 KB   56/227 KB   32/37 KB   89/89 KB   59/227 KB   4/42 KB   32/37 KB   89/89 KB   59/227 KB   6/42 KB   32/37 KB   89/89 KB   59/227 KB   10/42 KB   32/37 KB   89/89 KB   59/227 KB   10/42 KB   32/37 KB   89/89 KB   63/227 KB   10/42 KB   36/37 KB   89/89 KB   63/227 KB   10/42 KB   37/37 KB   89/89 KB   63/227 KB   14/42 KB   37/37 KB   89/89 KB   63/227 KB   14/42 KB   37/37 KB   89/89 KB   67/227 KB   18/42 KB   37/37 KB   89/89 KB   67/227 KB   18/42 KB   37/37 KB   89/89 KB   71/227 KB   22/42 KB   37/37 KB   89/89 KB   71/227 KB   22/42 KB   37/37 KB   89/89 KB   75/227 KB   26/42 KB   37/37 KB   89/89 KB   75/227 KB   26/42 KB   37/37 KB   89/89 KB   79/227 KB                                                26/42 KB   37/37 KB   83/227 KB              Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar (89 KB at 659.1 KB/sec)
+Downloading: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
+26/42 KB   37/37 KB   83/227 KB   4/27 KB   26/42 KB   37/37 KB   87/227 KB   4/27 KB   26/42 KB   37/37 KB   87/227 KB   8/27 KB   26/42 KB   37/37 KB   91/227 KB   8/27 KB   26/42 KB   37/37 KB   91/227 KB   12/27 KB   26/42 KB   37/37 KB   95/227 KB   12/27 KB   26/42 KB   37/37 KB   95/227 KB   16/27 KB   26/42 KB   37/37 KB   99/227 KB   16/27 KB   26/42 KB   37/37 KB   101/227 KB   16/27 KB   26/42 KB   37/37 KB   101/227 KB   20/27 KB   27/42 KB   37/37 KB   101/227 KB   20/27 KB   27/42 KB   37/37 KB   101/227 KB   24/27 KB   27/42 KB   37/37 KB   101/227 KB   27/27 KB   29/42 KB   37/37 KB   101/227 KB   27/27 KB   33/42 KB   37/37 KB   101/227 KB   27/27 KB   33/42 KB   37/37 KB   104/227 KB   27/27 KB   33/42 KB   37/37 KB   107/227 KB   27/27 KB   37/42 KB   37/37 KB   107/227 KB   27/27 KB   37/42 KB   37/37 KB   111/227 KB   27/27 KB   41/42 KB   37/37 KB   111/227 KB   27/27 KB   42/42 KB   37/37 KB   111/227 KB   27/27 KB   42/42 KB   37/37 KB   115/227 KB   27/27 KB   42/42 KB   37/37 KB   119/227 KB   27/27 KB   42/42 KB   37/37 KB   123/227 KB   27/27 KB   42/42 KB   37/37 KB   127/227 KB   27/27 KB   42/42 KB   37/37 KB   131/227 KB   27/27 KB   42/42 KB   37/37 KB   135/227 KB   27/27 KB   42/42 KB   37/37 KB   139/227 KB   27/27 KB   42/42 KB   37/37 KB   143/227 KB   27/27 KB   42/42 KB   37/37 KB   147/227 KB   27/27 KB   42/42 KB   37/37 KB   151/227 KB   27/27 KB   42/42 KB   37/37 KB   153/227 KB   27/27 KB                                                 Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (37 KB at 246.3 KB/sec)
+42/42 KB   156/227 KB   27/27 KB              42/42 KB   157/227 KB   27/27 KB   42/42 KB   161/227 KB   27/27 KB   42/42 KB   165/227 KB   27/27 KB   42/42 KB   169/227 KB   27/27 KB   42/42 KB   173/227 KB   27/27 KB   42/42 KB   4/29 KB   173/227 KB   27/27 KB   42/42 KB   4/29 KB   177/227 KB   27/27 KB   42/42 KB   4/29 KB   181/227 KB   27/27 KB   42/42 KB   8/29 KB   181/227 KB   27/27 KB   42/42 KB   8/29 KB   185/227 KB   27/27 KB   42/42 KB   12/29 KB   185/227 KB   27/27 KB   42/42 KB   12/29 KB   189/227 KB   27/27 KB   42/42 KB   12/29 KB   193/227 KB   27/27 KB   42/42 KB   12/29 KB   197/227 KB   27/27 KB   42/42 KB   12/29 KB   200/227 KB   27/27 KB   42/42 KB   12/29 KB   201/227 KB   27/27 KB   42/42 KB   12/29 KB   203/227 KB   27/27 KB   42/42 KB   12/29 KB   204/227 KB   27/27 KB   42/42 KB   14/29 KB   204/227 KB   27/27 KB   42/42 KB   18/29 KB   204/227 KB   27/27 KB   42/42 KB   19/29 KB   204/227 KB   27/27 KB   42/42 KB   20/29 KB   204/227 KB   27/27 KB   42/42 KB   24/29 KB   207/227 KB   27/27 KB   42/42 KB   24/29 KB   207/227 KB   27/27 KB   42/42 KB   28/29 KB   207/227 KB   27/27 KB   42/42 KB   29/29 KB   211/227 KB   27/27 KB   42/42 KB   28/29 KB   211/227 KB   27/27 KB   42/42 KB   29/29 KB   215/227 KB   27/27 KB   42/42 KB   29/29 KB   219/227 KB   27/27 KB   42/42 KB   29/29 KB   221/227 KB   27/27 KB                                                 Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (27 KB at 150.5 KB/sec)
+                                              Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (42 KB at 233.1 KB/sec)
+29/29 KB   224/227 KB                         29/29 KB   227/227 KB                           Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (29 KB at 147.0 KB/sec)
+                        Downloaded: http://nexus.51xianqu.net/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar (227 KB at 1126.9 KB/sec)
+[INFO] groupId:RAP:war:0.14.4-SNAPSHOT
+[INFO] +- redis.clients:jedis:jar:2.7.2:compile
+[INFO] |  \- org.apache.commons:commons-pool2:jar:2.3:compile
+[INFO] +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile
+[INFO] |  \- org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile
+[INFO] +- org.apache.struts:struts2-core:jar:2.3.28.1:compile
+[INFO] |  +- org.apache.struts.xwork:xwork-core:jar:2.3.28.1:compile
+[INFO] |  |  +- asm:asm:jar:3.3:compile
+[INFO] |  |  \- asm:asm-commons:jar:3.3:compile
+[INFO] |  |     \- asm:asm-tree:jar:3.3:compile
+[INFO] |  +- org.freemarker:freemarker:jar:2.3.22:compile
+[INFO] |  +- ognl:ognl:jar:3.0.14:compile
+[INFO] |  +- commons-fileupload:commons-fileupload:jar:1.3.1:compile
+[INFO] |  \- commons-io:commons-io:jar:2.2:compile
+[INFO] +- org.springframework:spring-orm:jar:4.2.4.RELEASE:compile
+[INFO] |  +- org.springframework:spring-beans:jar:4.2.4.RELEASE:compile
+[INFO] |  +- org.springframework:spring-core:jar:4.2.4.RELEASE:compile
+[INFO] |  +- org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile
+[INFO] |  \- org.springframework:spring-tx:jar:4.2.4.RELEASE:compile
+[INFO] +- dk.brics.automaton:automaton:jar:1.11-8:compile
+[INFO] +- org.apache.velocity:velocity:jar:1.7:compile
+[INFO] |  +- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] |  \- commons-lang:commons-lang:jar:2.4:compile
+[INFO] +- org.springframework:spring-context:jar:4.2.4.RELEASE:compile
+[INFO] |  +- org.springframework:spring-aop:jar:4.2.4.RELEASE:compile
+[INFO] |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  \- org.springframework:spring-expression:jar:4.2.4.RELEASE:compile
+[INFO] +- org.springframework:spring-context-support:jar:4.2.4.RELEASE:compile
+[INFO] +- org.springframework:spring-web:jar:4.2.4.RELEASE:compile
+[INFO] +- org.apache.velocity:velocity-tools:jar:2.0:compile
+[INFO] |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO] |  +- commons-digester:commons-digester:jar:1.8:compile
+[INFO] |  +- commons-chain:commons-chain:jar:1.1:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.1:compile
+[INFO] |  |  \- javax.servlet:servlet-api:jar:2.3:compile
+[INFO] |  +- commons-validator:commons-validator:jar:1.3.1:compile
+[INFO] |  +- oro:oro:jar:2.0.8:compile
+[INFO] |  +- sslext:sslext:jar:1.2-0:compile
+[INFO] |  +- org.apache.struts:struts-core:jar:1.3.8:compile
+[INFO] |  +- org.apache.struts:struts-taglib:jar:1.3.8:compile
+[INFO] |  \- org.apache.struts:struts-tiles:jar:1.3.8:compile
+[INFO] +- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile
+[INFO] +- org.apache.struts:struts2-spring-plugin:jar:2.3.28.1:compile
+[INFO] |  \- org.apache.commons:commons-lang3:jar:3.2:compile
+[INFO] +- com.google.code.gson:gson:jar:2.3.1:compile
+[INFO] +- org.tuckey:urlrewritefilter:jar:4.0.4:compile
+[INFO] +- javax.transaction:jta:jar:1.1:compile
+[INFO] +- c3p0:c3p0:jar:0.9.1.2:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.6:compile
+[INFO] +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] +- javax.mail:javax.mail-api:jar:1.5.5:compile
+[INFO] +- org.apache.logging.log4j:log4j-api:jar:2.5:compile
+[INFO] +- org.apache.logging.log4j:log4j-core:jar:2.5:compile
+[INFO] +- com.belerweb:pinyin4j:jar:2.5.0:compile
+[INFO] +- org.slf4j:slf4j-log4j12:jar:1.5.6:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.5.6:compile
+[INFO] |  \- log4j:log4j:jar:1.2.14:compile
+[INFO] +- org.ocpsoft.prettytime:prettytime:jar:3.2.3.Final:compile
+[INFO] +- org.hibernate:hibernate-core:jar:5.0.6.Final:compile
+[INFO] |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO] |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+[INFO] |  +- org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO] |  +- org.jboss:jandex:jar:2.0.0.Final:compile
+[INFO] |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+[INFO] +- org.mozilla:rhino:jar:1.7.7:compile
+[INFO] +- nl.flotsam:xeger:jar:1.0.0-SNAPSHOT:system
+[INFO] +- com.alibaba:buc.sso.common:jar:0.4.4:system
+[INFO] +- com.alibaba:buc.sso.client:jar:0.3.9:system
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO] \- antlr:antlr:jar:2.7.7:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.175 s
+[INFO] Finished at: 2016-10-20T09:30:29+08:00
+[INFO] Final Memory: 19M/228M
+[INFO] ------------------------------------------------------------------------
