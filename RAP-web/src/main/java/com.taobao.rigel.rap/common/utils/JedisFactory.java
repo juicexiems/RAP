@@ -13,9 +13,10 @@ class JedisFactory {
 
     public JedisFactory() {
         JedisPoolConfig poolConfig = new JedisPoolConfig();
+        poolConfig.setMaxWaitMillis(3000);
         String host = SystemConstant.getConfig("redis.host");
         int port = Integer.parseInt(SystemConstant.getConfig("redis.port"));
-        jedisPool = new JedisPool(poolConfig, host, port);
+        jedisPool = new JedisPool(poolConfig, host, port, 3000);
     }
 
     public JedisPool getJedisPool() {
